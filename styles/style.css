@@ -75,9 +75,9 @@
 .cover .h1 {
   display: flex;
   z-index: 0;
-  color: #FFF;
+  color: #fff;
   font-size: 100px;
-  letter-spacing: 30px; 
+  letter-spacing: 30px;
 }
 
 .cover .h1 .word {
@@ -100,19 +100,19 @@
 }
 
 .cover .h1 .after-space {
-  margin-left: -24px; 
+  margin-left: -24px;
 }
 
 .cover .description {
-  display: flex;   
+  display: flex;
   z-index: 0;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
 }
 
 .cover .h2 {
   font-size: 22px;
-  font-weight: 400; 
+  font-weight: 400;
   margin-top: 668px;
   margin-left: -1002px;
   word-spacing: 20px;
@@ -128,7 +128,7 @@
   z-index: 0;
   margin-top: 655px;
   margin-left: 79px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   width: 256px;
   height: 51px;
 }
@@ -139,7 +139,7 @@
   margin-left: -1.5px;
   display: inline-block;
   width: 193px;
-  color: #FFF;
+  color: #fff;
   font-size: 22px;
   word-spacing: 0.6px;
   text-transform: uppercase;
@@ -166,7 +166,7 @@
 .lots .list .element {
   position: relative;
   width: 334px;
-  height: 563px; 
+  height: 563px;
 }
 
 .lots .list .element .image {
@@ -264,7 +264,7 @@
 .about .text {
   grid-column: 2/3;
   grid-row: 2/3;
-  font-size: 20px; 
+  font-size: 20px;
   padding-left: 25px;
   padding-right: 26px;
   margin-top: -40px;
