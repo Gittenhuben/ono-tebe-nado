@@ -1,1 +1,394 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  margin: 92px 22px 92px 26px;
+}
+
+.header .menu {
+  justify-self: start;
+  padding-top: 43px;
+  padding-left: 24.5px;
+}
+
+.header .menu .list {
+  display: flex;
+  gap: 29.5px;
+  list-style: circle;
+}
+
+.header .menu .list .item {
+  padding-left: 2px;
+}
+
+.header .menu .list .item.first {
+  padding-left: 0px;
+  padding-top: 1px;
+  list-style: none;
+  letter-spacing: normal;
+}
+
+.header .menu .list .item.last {
+  padding-left: 3px;
+}
+
+.link {
+  text-underline-offset: 0.21em;
+}
+
+.header .logo {
+  justify-self: center;
+  align-self: center;
+}
+
+.header .contacts {
+  justify-self: start;
+  padding: 5.75px 30px 0 184px;
+  line-height: 1.35;
+  text-decoration-skip-ink: none;
+}
+
+.address-text {
+  font-style: normal;
+  letter-spacing: normal;
+  padding-left: 1px;
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  background-image: url(../images/cover-0.jpg);
+  background-repeat: no-repeat;
+  height: 757px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.cover .h1 {
+  display: flex;
+  z-index: 0;
+  color: #FFF;
+  font-size: 100px;
+  letter-spacing: 30px; 
+}
+
+.cover .h1 .word {
+  display: inline-block;
+}
+
+.cover .h1 .word-1 {
+  margin-top: 164px;
+  margin-left: 50px;
+}
+
+.cover .h1 .word-2 {
+  margin-top: 290px;
+  margin-left: -60px;
+}
+
+.cover .h1 .word-3 {
+  margin-top: 411px;
+  margin-left: -101px;
+}
+
+.cover .h1 .after-space {
+  margin-left: -24px; 
+}
+
+.cover .description {
+  display: flex;   
+  z-index: 0;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.cover .h2 {
+  font-size: 22px;
+  font-weight: 400; 
+  margin-top: 668px;
+  margin-left: -1002px;
+  word-spacing: 20px;
+}
+
+.cover .h2 .after-space {
+  word-spacing: 18.5px;
+  margin-left: -2.5px;
+}
+
+.cover .button {
+  background: transparent;
+  z-index: 0;
+  margin-top: 655px;
+  margin-left: 79px;
+  border: 1px solid #FFF;
+  width: 256px;
+  height: 51px;
+}
+
+.cover .button .text {
+  font-family: Raleway, sans-serif;
+  margin-top: -1px;
+  margin-left: -1.5px;
+  display: inline-block;
+  width: 193px;
+  color: #FFF;
+  font-size: 22px;
+  word-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+
+
+.lots .h2 {
+  font-size: 40px;
+  margin-top: 180px;
+  margin-left: 64px;
+}
+
+.lots .list {
+  list-style: none;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 25px 1px;
+  margin-top: 26px;
+  margin-left: 24px;
+
+}
+
+.lots .list .element {
+  position: relative;
+  width: 334px;
+  height: 563px; 
+}
+
+.lots .list .element .image {
+  position: absolute;
+  z-index: -1;
+}
+
+.lots .article {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 51px 40px 48px;
+  height: 100%;
+
+}
+
+.lots .article .title {
+  color: #fff;
+  z-index: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-skip-ink: none;
+  font-weight: 700;
+  line-height: 118%;
+}
+
+.lots .article .text {
+  color: #fff;
+  z-index: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.lots .article .dash {
+  display: inline-block;
+  transform: scale(0.75, 0.75);
+  margin: 0 -1px;
+}
+
+.lots .article .hellip {
+  display: inline-block;
+  transform: scale(0.95, 1);
+  margin-left: -7px;
+  margin-right: 1px;
+}
+
+.lots .more {
+  font-size: 20px;
+  margin-left: 64px;
+  margin-top: 31px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  grid-template-rows: 334px 1fr;
+  align-items: center;
+  margin-top: 135px;
+  margin-left: 24px;
+}
+
+.about .logo-container {
+  padding: 47px;
+}
+
+.about .logo {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.about .logo .circle {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.about .logo .logo-image {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 148px;
+
+}
+
+.about .h2 {
+  font-size: 40px;
+  padding-top: 9px;
+  padding-left: 25px;
+  word-spacing: -1.5px;
+}
+
+.about .text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 20px; 
+  padding-left: 25px;
+  padding-right: 26px;
+  margin-top: -40px;
+  letter-spacing: 0.2px;
+  line-height: 1.2em;
+}
+
+.about .text .p-first {
+  margin-bottom: 24px;
+}
+
+.about .text .text-1 {
+  letter-spacing: normal;
+}
+
+.about .text .text-2 {
+  letter-spacing: 0.25px;
+}
+
+.about .text .text-3 {
+  letter-spacing: -0.1px;
+}
+
+.about .text .text-4 {
+  letter-spacing: 0.1px;
+}
+
+.about .text .text-5 {
+  letter-spacing: -0.05px;
+}
+
+.about .text .text-6 {
+  letter-spacing: 0.6px;
+}
+
+.about .text .text-7 {
+  letter-spacing: normal;
+}
+
+.about .text .text-8 {
+  letter-spacing: 0.35px;
+}
+
+.about .text .text-9 {
+  letter-spacing: normal;
+}
+
+.about .text .text-10 {
+  letter-spacing: 0.3px;
+}
+
+.about .text .text-11 {
+  letter-spacing: 0.1px;
+}
+
+.about .text .text-12 {
+  letter-spacing: normal;
+}
+
+.about .text .text-13 {
+  letter-spacing: 0.6px;
+}
+
+.about .text .text-14 {
+  letter-spacing: normal;
+}
+
+.about .text .text-15 {
+  letter-spacing: 0.175px;
+}
+
+.about .text .text-16 {
+  letter-spacing: -0.01px;
+}
+
+.about .text .text-17 {
+  letter-spacing: 0.2px;
+}
+
+.about .text .text-18 {
+  letter-spacing: normal;
+}
+
+.about .text .text-19 {
+  letter-spacing: 0.2px;
+}
+
+.about .text .text-20 {
+  letter-spacing: normal;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 160px 1fr;
+  font-size: 18px;
+  margin-top: 181px;
+  height: 186px;
+}
+
+.footer .contacts {
+  justify-self: start;
+  padding-left: 50px;
+  padding-right: 0 px;
+  line-height: 1.34;
+  text-decoration-skip-ink: none;
+  letter-spacing: 0.18px;
+}
+
+.footer .menu .list {
+  text-align: center;
+  list-style: none;
+  margin-top: 0.5px;
+  margin-left: 1px;
+}
+
+.footer .social {
+  justify-self: end;
+  width: 240px;
+  margin-right: 50px;
+}
+
+.footer .social .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
