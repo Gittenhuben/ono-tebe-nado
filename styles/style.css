@@ -108,7 +108,7 @@
   color: #fff;
 }
 
-.cover-description-header {
+.cover-description-text {
   padding-left: 78px;
   padding-top: 37px;
   padding-bottom: 63px;
@@ -117,7 +117,7 @@
   word-spacing: 20px;
 }
 
-.cover-description-header .after-space {
+.cover-description-text .after-space {
   word-spacing: 18.5px;
   margin-left: -2.5px;
 }
